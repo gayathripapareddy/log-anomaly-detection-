@@ -1,0 +1,7 @@
+ALL LOGS:
+{'ip': '192.168.1.1', 'method': 'GET', 'endpoint': '/home', 'status': '200'}
+{'ip': '192.168.1.2', 'method': 'GET', 'endpoint': '/login', 'status': '500'}
+{'ip': '192.168.1.3', 'method': 'GET', 'endpoint': '/api', 'status': '404'}
+
+ANOMALIES:
+{'ip': '192.168.1.2', 'method': 'GET', 'endpoint': '/login', 'status': '500'}
